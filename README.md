@@ -1,5 +1,7 @@
 # Camnets v 1.0
 
+View the application live here: https://camnets.herokuapp.com
+
 ## Global dependencies
 
   - [Node.js](https://nodejs.org)
