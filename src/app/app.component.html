@@ -1,0 +1,11 @@
+
+
+<div id="frame">
+  <mat-tab-group [selectedIndex]="selectedIndex" (selectedTabChange)="navigate($event)">
+    <mat-tab label="About"></mat-tab>
+    <mat-tab label="Face tracking"></mat-tab>
+    <mat-tab label="Keypoints estimation"></mat-tab>
+  </mat-tab-group>
+  <router-outlet *ngIf="!navigating"></router-outlet>
+</div>
+

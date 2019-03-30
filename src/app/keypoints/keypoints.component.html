@@ -1,0 +1,31 @@
+<div id="frame" #frame hidden>
+  <div id="canvasFrame" #canvasFrame>
+    <video [ngClass]="videoNgClass" #player id="player" autoplay></video>
+    <canvas #canvas id="canvas"></canvas>
+    <canvas #sketchCanvas id="sketchCanvas"></canvas>
+  </div>
+  <form [formGroup]="form">
+    <mat-form-field>
+      <mat-label>FPS for estimation</mat-label>
+      <input matInput type="number" min="1" max="30" step="1" [formControlName]="'fpsControl'">
+      <mat-hint>1 to 30</mat-hint>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Pose confidence</mat-label>
+      <input matInput type="number" min="0.1" max="1" step="0.05" [formControlName]="'poseConfidenceControl'">
+      <mat-hint>0.1 to 1.0</mat-hint>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Keypoint confidence</mat-label>
+      <input matInput type="number" min="0.1" max="1" step="0.05" [formControlName]="'keypointConfidenceControl'">
+      <mat-hint>0.1 to 1.0</mat-hint>
+    </mat-form-field>
+  </form>
+  <div id="footer">
+    <button mat-stroked-button id="start" (click)="toggleEstimation()"
+            [disabled]="!neuralNetLoaded || !form.valid" color="{{predicting ? 'primary' : 'accent'}}">
+      <strong>{{buttonText}}</strong>
+    </button>
+    <span id="effective-fps-span"> Effective FPS: <span id="effective-fps-value">{{effectiveFPS}}</span></span>
+  </div>
+</div>
