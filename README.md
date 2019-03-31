@@ -1,6 +1,16 @@
 # Camnets v 1.0
 
-View the application live here: https://camnets.herokuapp.com
+Author: **Daniel Correa Tucunduva**
+
+Developed as the final project for CS 504
+
+Professor: Dr. Rami Yared
+
+Bishop's University, Winter 2019
+
+##### View the project report here: https://github.com/danieltucunduva/camnets/blob/master/CS504_Report.pdf ##### 
+
+##### View the application live here: https://camnets.herokuapp.com #####
 
 ## Global dependencies
 
