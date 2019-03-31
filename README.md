@@ -8,9 +8,15 @@ Professor: Dr. Rami Yared
 
 Bishop's University, Winter 2019
 
-##### View the project report here: https://github.com/danieltucunduva/camnets/blob/master/CS504_Report.pdf ##### 
+<br>
+
+##### View the project report [here](https://github.com/danieltucunduva/camnets/blob/master/CS504_Report.pdf) ##### 
 
 ##### View the application live here: https://camnets.herokuapp.com #####
+
+---
+
+<br>
 
 ## Global dependencies
 
@@ -22,11 +28,11 @@ Bishop's University, Winter 2019
   - To clone (requires Git): `git clone https://github.com/danieltucunduva/camnets.git`
 
 ## 2. Install and build locally (has to be done only once)
-- From the root project directory (that contains the *package.json* file):
+- From the root project directory (that contains the `package.json` file):
   - `npm install`
   - `npm run build`
 
 ## 3. Serve application locally
-- From the root directory: 
+- From the root project directory: 
   - `npm start`
   - in Chrome, go to `localhost:8080`
