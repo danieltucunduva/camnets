@@ -10,9 +10,9 @@ Bishop's University, Winter 2019
 
 <br>
 
-##### View the project report [here](https://github.com/danieltucunduva/camnets/blob/master/CS504_Report.pdf) ##### 
+##### View the project report [here](https://github.com/danieltucunduva/camnets/blob/master/report/CS504_Report.pdf) ##### 
 
-##### View the application live here: https://camnets.herokuapp.com #####
+##### View the application live [here](https://camnets.herokuapp.com) #####
 
 ---
 
